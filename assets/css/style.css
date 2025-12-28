@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100..900&display=swap');
+
+
+
+html {
+    smooth-scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Archivo", sans-serif;
+    background-color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    /* padding: 0 15px; */
+}
+
+
+
+
+.home-banner-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    inset: 0;
+    object-fit: cover;
+}
+
+
+
+.container-inner {
+    display: flex;
+    gap: 40px;
+
+}
+
+.container-inner .home-banner-content {
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.container-inner .home-banner-content .button-container {
+    margin-top: 20px;
+}
+
+.container-inner .cliens-text-section {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    gap: 20px;
+}
+
+.pera-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.pera-text-2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+
+.text-content {
+    text-align: right;
+    width: 350px;
+}
+
+.clutch-cta {
+    display: flex;
+    justify-content: left;
+}
+
+.clutch-cta a {
+    border-radius: 500px;
+}
+
+.clutch-cta a svg {
+    height: 60px;
+    width: 100%;
+    border-radius: 500px;
+}
+
+.cliens-text-section .client-image {
+    display: flex;
+    gap: -10px;
+}
+
+.cliens-text-section .client-image a:first-child {
+    margin-left: 0px;
+}
+
+.cliens-text-section .client-image a {
+    margin-left: -10px;
+}
+
+.cliens-text-section .client-image a img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+
+
+
+.banner-heading {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 66px;
+    color: #FFFFFF;
+}
+
+.banner-heading span {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 66px;
+    font-style: italic;
+    font-family: "Zodiak", Sans-serif;
+}
+
+
+
+.section-heading {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.section-heading span {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58px;
+    font-style: italic;
+    font-family: "Zodiak", Sans-serif;
+}
+
+.anime-btn {
+    font-size: 18px !important;
+    font-family: "Archivo", Sans-serif;
+    font-weight: 500 !important;
+    text-transform: Capitalize;
+    border: none;
+    background: none;
+    border-radius: 100px;
+    max-height: 50px;
+    padding: 18px 20px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    line-height: 1.5;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+    .anime-btn {
+        padding: 12px 24px;
+        font-size: 16px !important;
+    }
+}
+
+/* === Text Layer === */
+.anime-btn .btn--text {
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    display: block;
+    color: transparent;
+    backface-visibility: hidden;
+    pointer-events: none;
+    transform-origin: center;
+}
+
+.anime-btn .btn--text::before,
+.anime-btn .btn--text::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    transition: all 0.2s ease-out;
+}
+
+.anime-btn:hover .btn--text::before,
+.anime-btn:hover .btn--text::after {
+    color: #000;
+}
+
+.anime-btn .btn--text::before {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.anime-btn .btn--text::after {
+    transform: translateY(20px);
+    opacity: 0;
+}
+
+/* === Background Layer === */
+.anime-btn .btn--bg {
+    position: absolute;
+    inset: 0;
+    border-radius: 100px;
+    background: #2A5FF4;
+    transition: background 0.4s ease-out;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.anime-btn:hover .btn--bg {
+    background: #ffffff;
+}
+
+.anime-btn .btn--bg::after {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 200%;
+    top: -50%;
+    left: -25%;
+    border-radius: 50%;
+    background: #f4f4f4;
+    transform: translate3d(0, 78%, 0);
+    transition: transform 0.4s ease-out;
+}
+
+/* === Icon Layer === */
+.anime-btn .btn--icon {
+    position: relative;
+    z-index: 1;
+    padding-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anime-btn .btn--icon svg {
+    height: 16px;
+    width: 16px;
+}
+
+.anime-btn .btn--icon svg path {
+    fill: transparent;
+    stroke: #ffffff;
+}
+
+.anime-btn:hover .btn--icon svg path {
+    fill: transparent;
+    stroke: #000000;
+}
+
+/* === Hover Effects (Desktop) === */
+@media (min-width: 992px) {
+    .anime-btn:hover .btn--text::before {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+
+    .anime-btn:hover .btn--text::after {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .anime-btn:hover .btn--bg::after {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/* === Secondary to White Variant === */
+.anime-btn.btn-secondary-to-white {
+    text-transform: none;
+}
+
+/* === Responsive Fixes === */
+@media (max-width: 991.98px) {
+
+    .anime-btn .btn--icon,
+    .anime-btn .btn--text,
+    .anime-btn .btn--bg {
+        transform: none !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .anime-btn .btn--text {
+        white-space: normal;
+        text-align: center;
+    }
+}
+
+
+.home-animated-text-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 100px 15px;
+}
+
+
+.home-animated-text-section p {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #E4E6EB7D;
+}
+
+.home-video-section .video-section-vimeo {
+    position: relative;
+    padding-top: 56.25%;
+}
+
+.home-video-section .video-section-vimeo iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.service-section-headings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+
+}
+
+.hero-service-section {
+    padding: 120px 0px;
+}
+
+.service-section-headings .service-heading {
+    width: 68%;
+}
+
+.service-section-headings .service-desc {
+    width: 32%;
+}
+
+.service-section-inner-container {
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+}
+
+.service-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    overflow: hidden;
+}
+
+.service-items .service-item {
+    padding: 24px;
+    border-radius: 14px;
+    background-color: #141414;
+    position: relative;
+}
+
+.service-items .service-item-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  /* -webkit-backdrop-filter: blur(10px); */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+
+.service-items .service-item-container:before{
+    content: '';
+    position: absolute;
+    backdrop-filter: blur(10px);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.service-items .service-item .service-item-heading {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 120%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.service-items .service-item img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.service-item-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    inset: 0;
+}
+
+.service-content {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.service-contents {
+    display: none;
+}
