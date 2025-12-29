@@ -3,7 +3,7 @@
 
 
 html {
-    smooth-scroll-behavior: smooth;
+    /* smooth-scroll-behavior: smooth; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -383,7 +383,7 @@ a {
 
 }
 
-.hero-service-section {
+.home-service-section {
     padding: 120px 0px;
 }
 
@@ -409,37 +409,49 @@ a {
 }
 
 .service-items .service-item {
-    padding: 24px;
-    border-radius: 14px;
+    padding: 25px;
+    border-radius: 15px;
     background-color: #141414;
     position: relative;
 }
 
 .service-items .service-item-container {
-  background-color: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(10px);
-  /* -webkit-backdrop-filter: blur(10px); */
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    /* backdrop-filter: blur(10px); */
+    /* -webkit-backdrop-filter: blur(10px); */
     display: flex;
     flex-direction: column;
     gap: 30px;
     position: relative;
+    padding: 20px 0px;
+    border-radius: 15px;
+    transition: all 0.8s ease-in-out;
+
 }
 
-.service-items .service-item-container:before{
+.service-items .service-item-container:before {
     content: '';
     position: absolute;
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
     height: 100%;
     width: 100%;
-    z-index: -1;
+    inset: 1000px;
+    top: 0;
+    left: 0;
+    background: #000000;
+    filter: blur(80px);
+    z-index: 1;
+    transition: all 0.8s ease-in-out;
+
 }
 
 .service-items .service-item .service-item-heading {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 500;
     line-height: 120%;
     color: #FFFFFF;
     text-align: center;
+    z-index: 5;
 }
 
 .service-items .service-item img {
@@ -447,22 +459,317 @@ a {
     height: 220px;
     object-fit: contain;
     margin: 0 auto;
+    z-index: 5;
 }
 
-.service-item-content {
+.service-item .service-item-content {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0%;
+    left: 0%;
     inset: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 14px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.8s ease-in-out;
+}
+
+.service-item .service-item-content .service-content {
+    text-align: center;
+    z-index: 9;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.service-item:hover .service-item-content {
+    opacity: 1;
+    visibility: visible;
+    z-index: 9;
+
 }
 
 .service-content {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
-    color: #FFFFFF;
+    color: #B2B2B2;
 }
 
 .service-contents {
     display: none;
 }
+
+
+
+
+.home-project-section {
+    padding-bottom: 120px;
+}
+
+
+
+
+
+
+.project-section-inner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.project-section-headings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.project-items-container .project-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+}
+
+.project-items-container .project-items .project-item-image {
+    position: relative;
+}
+
+.project-items-container .project-items .project-item-image .project-item-hover-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(12px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.project-items-container .project-items .project-item-image:hover .project-item-hover-box {
+    opacity: 1;
+    visibility: visible;
+}
+
+.project-items-container .project-items .project-item-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.project-items-container .project-items .project-item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.project-items-container .project-items .project-item .project-item-content .project-heading {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.project-items-container .project-items .project-item .project-item-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.project-items-container .project-items .project-item .project-item-content .project-tags ul {
+    list-style: none;
+    color: #FFFFFFB3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 7px;
+}
+
+.project-items-container .project-items .project-item .project-item-content .project-tags ul li {
+    border: 1px solid #FFFFFF66;
+    padding: 5px 12px 5px 12px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.faq-inner-container {
+    display: flex;
+    gap: 40px;
+}
+
+.faq-inner-container .faq-title-container {
+    width: 50%;
+}
+
+.faq-inner-container .faq-content-container {
+    width: 50%;
+}
+
+.faq-content-container .faq-items .faq-item {
+    border-bottom:1px soild rgba(255, 255, 255, 1);
+    padding: 40px 0;
+    transition: all 0.5s;
+    position: relative;
+    cursor: pointer;
+
+}
+.faq-content-container .faq-items .faq-item:hover{
+        padding: 40px 30px;
+}
+.faq-content-container .faq-items .faq-item:hover:before{
+    height: 100%;
+}
+
+.faq-content-container .faq-items .faq-item:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #141414;
+    height: 0%;
+    z-index: -1;
+    transition: all 0.5s;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.faq-content-container .faq-items .faq-item .faq-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+}
+
+/* .faq-content-container .faq-items .faq-item .faq-item-header:hover {
+    background-color: #141414;
+
+} */
+
+.faq-item .faq-item-header h4 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+.accordion-content {
+transition: all 0.5s;
+}
+.accordion-content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+
+.faq-content-container .faq-items .faq-item[aria-expanded="true"]{
+  background-color: #141414;
+  padding: 40px 30px;
+}
+.icon{
+    rotate: 0deg;
+    transition: all 0.8s;
+}
+.icon.rotate{
+    rotate: 180deg;
+    transition: all 0.8s;
+}
+
+.logo-items {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.logo-items .logo-item .logo-img{
+    height: 60px;
+    width: 100%;
+}
+
+
+:root {
+    --duration: 30s; /* কত দ্রুত স্ক্রল হবে */
+}
+
+.logo-slider {
+    width: 100%;
+    overflow: hidden; /* বাইরের অংশ হাইড রাখবে */
+    padding: 40px 0 80px;
+    position: relative;
+}
+
+/* দুই পাশে হালকা শ্যাডো ইফেক্ট যাতে লোগো আসা-যাওয়া স্মুথ দেখায় */
+.logo-slider::before,
+.logo-slider::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    z-index: 2;
+}
+.logo-slider::before {
+    left: 0;
+    background: linear-gradient(to right, #000000, transparent);
+}
+.logo-slider::after {
+    right: 0;
+    background: linear-gradient(to left, #000000, transparent);
+}
+
+.logo-track {
+    display: flex;
+    width: max-content;; /* মোট লোগো সংখ্যার হিসাব */
+    animation: scroll 15s linear infinite;
+}
+
+/* মাউস হোভার করলে স্ক্রল থেমে যাবে */
+.logo-track:hover {
+    animation-play-state: paused;
+}
+
+.logo-item {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-item img {
+    max-width: 100%;
+    width: 100%;
+    height: 70px;
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
