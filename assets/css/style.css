@@ -17,7 +17,8 @@ body {
     font-family: "Archivo", sans-serif;
     background-color: #000;
 }
-img{
+
+img {
     width: 100%;
     height: 100%;
 }
@@ -35,6 +36,64 @@ p {
 
 a {
     text-decoration: none;
+}
+
+
+.main-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: #2A5FF4;
+    text-decoration: none;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.icon-btn {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-btn span {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.icon-1 {
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+}
+
+.icon-2 {
+    top: 0;
+    left: 0;
+    transform: translate(-100%, 100%);
+    opacity: 0;
+}
+
+.main-btn:hover .icon-1 {
+    transform: translate(100%, -100%);
+    opacity: 0;
+}
+
+.main-btn:hover .icon-2 {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.icon-btn svg path {
+    stroke: #fff;
 }
 
 
@@ -628,17 +687,19 @@ a {
 }
 
 .faq-content-container .faq-items .faq-item {
-    border-bottom:1px soild rgba(255, 255, 255, 1);
+    border-bottom: 1px soild rgba(255, 255, 255, 1);
     padding: 40px 0;
     transition: all 0.5s;
     position: relative;
     cursor: pointer;
 
 }
-.faq-content-container .faq-items .faq-item:hover{
-        padding: 40px 30px;
+
+.faq-content-container .faq-items .faq-item:hover {
+    padding: 40px 30px;
 }
-.faq-content-container .faq-items .faq-item:hover:before{
+
+.faq-content-container .faq-items .faq-item:hover:before {
     height: 100%;
 }
 
@@ -652,7 +713,7 @@ a {
     height: 0%;
     z-index: -1;
     transition: all 0.5s;
-    border-bottom: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .faq-content-container .faq-items .faq-item .faq-item-header {
@@ -673,10 +734,12 @@ a {
     line-height: 36px;
     font-weight: 500;
 }
+
 .accordion-content {
-transition: all 0.5s;
+    transition: all 0.5s;
 }
-.accordion-content p{
+
+.accordion-content p {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -684,15 +747,17 @@ transition: all 0.5s;
     padding-top: 40px;
 }
 
-.faq-content-container .faq-items .faq-item[aria-expanded="true"]{
-  background-color: #141414;
-  padding: 40px 30px;
+.faq-content-container .faq-items .faq-item[aria-expanded="true"] {
+    background-color: #141414;
+    padding: 40px 30px;
 }
-.icon{
+
+.icon {
     rotate: 0deg;
     transition: all 0.8s;
 }
-.icon.rotate{
+
+.icon.rotate {
     rotate: 180deg;
     transition: all 0.8s;
 }
@@ -703,19 +768,22 @@ transition: all 0.5s;
     justify-content: center;
     align-items: center;
 }
-.logo-items .logo-item .logo-img{
+
+.logo-items .logo-item .logo-img {
     height: 60px;
     width: 100%;
 }
 
 
 :root {
-    --duration: 30s; /* কত দ্রুত স্ক্রল হবে */
+    --duration: 30s;
+    /* কত দ্রুত স্ক্রল হবে */
 }
 
 .logo-slider {
     width: 100%;
-    overflow: hidden; /* বাইরের অংশ হাইড রাখবে */
+    overflow: hidden;
+    /* বাইরের অংশ হাইড রাখবে */
     padding: 40px 0 80px;
     position: relative;
 }
@@ -730,10 +798,12 @@ transition: all 0.5s;
     height: 100%;
     z-index: 2;
 }
+
 .logo-slider::before {
     left: 0;
     background: linear-gradient(to right, #000000, transparent);
 }
+
 .logo-slider::after {
     right: 0;
     background: linear-gradient(to left, #000000, transparent);
@@ -741,8 +811,10 @@ transition: all 0.5s;
 
 .logo-track {
     display: flex;
-    width: max-content;; /* মোট লোগো সংখ্যার হিসাব */
-    animation: scroll 15s linear infinite;
+    width: max-content;
+    ;
+    /* মোট লোগো সংখ্যার হিসাব */
+    animation: scroll 50s linear infinite;
 }
 
 /* মাউস হোভার করলে স্ক্রল থেমে যাবে */
@@ -772,43 +844,17 @@ transition: all 0.5s;
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-50%);
     }
 }
 
 
-
-
-.main-btn{
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.icon-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-.icon-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.icon-2{
-    margin-top: 40px;
-    margin-left: 40px;
-}
-
-
-.home-testimonial-section{
+.home-testimonial-section {
     padding: 120px 0;
+    position: relative;
+    overflow: hidden;
 }
 
 .testimonials-section-headings {
@@ -816,15 +862,31 @@ transition: all 0.5s;
     gap: 50px;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.home-testimonial-section .testimonial-blur-box {
+    height: 450px;
+    width: 900px;
+    border-radius: 50%;
+    background: rgba(0, 71, 255, 1);
+    filter: blur(150px);
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -84%);
 }
 
 
 
-.testimonials-section-headings .testimonials-heading{
+
+.testimonials-section-headings .testimonials-heading {
     width: calc(100%-290px);
 }
 
-.testimonials-section-headings .marketplace-logos-container{
+.testimonials-section-headings .marketplace-logos-container {
     width: 290px;
     display: flex;
     flex-direction: column;
@@ -839,15 +901,18 @@ transition: all 0.5s;
     padding-bottom: 15px;
     border-bottom: 1px solid #FFFFFF4D;
 }
-.marketplace-logo img{
+
+.marketplace-logo img {
     height: 100%;
     width: 100%;
 }
+
 .review-container {
     display: flex;
     gap: 20px;
 }
-.review-container .rating .rating-icon{
+
+.review-container .rating .rating-icon {
     background-color: #FFF;
     padding: 6px;
     display: flex;
@@ -856,12 +921,14 @@ transition: all 0.5s;
     width: 48px;
     margin-right: 15px;
 }
-.review-container .rating .rating-icon svg{
+
+.review-container .rating .rating-icon svg {
     height: 18px;
     width: 18px;
     color: #2A5FF4;
 }
-.rating-text p{
+
+.rating-text p {
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
@@ -878,7 +945,8 @@ transition: all 0.5s;
     color: #fff;
     overflow: hidden;
 }
-.testimonial-slider-container:hover .testimonial-slider{
+
+.testimonial-slider-container:hover .testimonial-slider {
     animation-play-state: paused;
 }
 
@@ -887,16 +955,19 @@ transition: all 0.5s;
     outline: none;
     width: 350px;
 }
+
 .testimonial-slider {
     display: flex;
     width: max-content;
     flex-wrap: nowrap;
     animation: scroll-left 30s linear infinite;
 }
+
 @keyframes scroll-left {
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-50%);
     }
@@ -918,21 +989,24 @@ transition: all 0.5s;
     height: 15vh;
     overflow-y: auto;
     padding-right: 6px;
-    
+
 }
+
 .testimonial-content .testimonial-content-text::-webkit-scrollbar {
-  width: 3px;
-  border-radius: 8px;
+    width: 3px;
+    border-radius: 8px;
 }
-.testimonial-content .testimonial-content-text::-webkit-scrollbar-track{
+
+.testimonial-content .testimonial-content-text::-webkit-scrollbar-track {
     border-radius: 8px;
     width: 3px;
 }
-.testimonial-content .testimonial-content-text::-webkit-scrollbar-thumb{
+
+.testimonial-content .testimonial-content-text::-webkit-scrollbar-thumb {
     width: 3px;
     background: #fff;
     border-radius: 8px;
-    
+
 }
 
 .client-info {
@@ -953,7 +1027,7 @@ transition: all 0.5s;
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
-    color:#FFFFFFCC;
+    color: #FFFFFFCC;
 }
 
 .client-info span {
@@ -965,22 +1039,24 @@ transition: all 0.5s;
 
 
 
-.rating-icons svg{
+.rating-icons svg {
     height: 16px;
     width: 16px;
     color: #2A5FF4;
 }
-.market-logo{
+
+.market-logo {
     width: 100%;
     display: flex;
     justify-content: end;
     align-items: end;
 }
 
-.market-logo img{
+.market-logo img {
     width: auto;
     height: 20px;
 }
+
 .testimonial-content {
     display: flex;
     gap: 30px;
@@ -992,3 +1068,141 @@ transition: all 0.5s;
 }
 
 
+
+.home-project-show-section {
+    position: relative;
+    padding: 100px 0px;
+}
+
+.home-project-show-section .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.project-showcase {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.project-track {
+    display: flex;
+    width: max-content;
+}
+
+
+.scroll-left {
+    animation: scrollLeft 40s linear infinite;
+}
+
+.scroll-right {
+    animation: scrollRight 40s linear infinite;
+}
+
+.project-track:hover {
+    animation-play-state: paused;
+}
+
+.project-card {
+    width: 380px;
+    height: 240px;
+    margin: 0 15px;
+    border-radius: 12px;
+    overflow: hidden;
+    flex-shrink: 0;
+    transition: 0.3s;
+}
+
+.project-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.grid-container {
+    position: relative;
+    z-index: 0;
+    display: flex;
+    /* Makes the rows align horizontally */
+    width: 100%;
+    height: 100%;
+    /* Adjust as needed */
+    justify-content: center;
+    overflow: auto;
+    /* To handle large number of rows/cols */
+}
+
+.dark .grid-container {
+    background-color: #000000;
+}
+
+/* --- Tile Sizing Utility Classes --- */
+.tile-sm {
+    width: 7px;
+    height: 7px;
+}
+
+/* w-8 h-8 */
+.tile-md {
+    width: 7px;
+    height: 7px;
+}
+
+
+/* --- Row Styling --- */
+.tile-row {
+    position: relative;
+    /*     border-left: 0.2px solid rgba(255,255,255,0.15); */
+    flex-shrink: 0;
+    /* Important for flex container children */
+}
+
+/* --- Column/Tile Styling --- */
+.tile-col {
+    position: relative;
+    border-right: 0.2px solid rgba(255, 255, 255, 0.15);
+    ;
+    border-top: 0.2px solid rgba(255, 255, 255, 0.15);
+    ;
+    background-color: transparent;
+    transition: background-color 2s ease-out;
+}
+
+#tiles-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
