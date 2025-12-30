@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pixelean Home Page - </title>
+    <title>Pixelean Home Page </title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -1407,196 +1407,184 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
-        document.querySelectorAll(".anime-btn").forEach((btn) => {
-            // Grab inner elements (some may be missing)
-            const text = btn.querySelector(".btn--text");
-            const icon = btn.querySelector(".btn--icon");
-            const bg = btn.querySelector(".btn--bg");
-
-            // Get button size
-            const { width, height } = btn.getBoundingClientRect();
-
-            // Default position (center)
-            const baseX = 0;
-            const baseY = 0;
-
-            // --- Animation functions ---
-            function animateText(e) {
-                if (!text) return; // stop if text not found
-                const offsetX = e.offsetX - width / 4;
-                const offsetY = e.offsetY - height / 4;
-                anime({
-                    targets: text,
-                    translateX: -0.1 * offsetX,
-                    translateY: -0.1 * offsetY,
-                    duration: 500,
-                });
-            }
-
-            function animateIcon(e) {
-                if (!icon) return; // stop if icon not found
-                const offsetX = e.offsetX - width / 4;
-                const offsetY = e.offsetY - height / 4;
-                anime({
-                    targets: icon,
-                    translateX: -0.1 * offsetX,
-                    translateY: -0.1 * offsetY,
-                    duration: 500,
-                });
-            }
-
-            function animateBackground(e) {
-                if (!bg) return; // stop if background not found
-                const offsetX = e.offsetX - width / 4;
-                const offsetY = e.offsetY - height / 4;
-                anime({
-                    targets: bg,
-                    translateX: 0.05 * offsetX,
-                    translateY: 0.05 * offsetY,
-                    duration: 500,
-                });
-            }
-
-            // --- Reset animations ---
-            function resetAnimations() {
-                const targets = [text, icon, bg].filter(Boolean); // remove nulls
-                anime({
-                    targets: targets,
-                    translateX: baseX,
-                    translateY: baseY,
-                    duration: 700,
-                    easing: "easeOutElastic",
-                });
-            }
-
-            // --- Event Listeners ---
-            btn.addEventListener("pointerenter", (e) => {
-                animateText(e);
-                animateBackground(e);
-                animateIcon(e);
-            });
-
-            btn.addEventListener("pointermove", (e) => {
-                animateText(e);
-                animateBackground(e);
-                animateIcon(e);
-            });
-
-            btn.addEventListener("pointerleave", () => {
-                resetAnimations();
-            });
-        });
-
-        document.addEventListener("DOMContentLoaded", function () {
-            gsap.registerPlugin(ScrollTrigger);
-
-            const triggerElement2 = document.querySelector(".home-animated-text-section");
-            const textElement2 = document.querySelector(".home-animated-text-content p");
+        jQuery(document).ready(function ($) {
 
 
-            if (triggerElement2 && textElement2) {
-                const split = new SplitType(textElement2, {
-                    types: "words, chars",
-                });
+            document.querySelectorAll(".anime-btn").forEach((btn) => {
+                // Grab inner elements (some may be missing)
+                const text = btn.querySelector(".btn--text");
+                const icon = btn.querySelector(".btn--icon");
+                const bg = btn.querySelector(".btn--bg");
 
-                const tl = gsap.timeline({
-                    scrollTrigger: {
-                        trigger: triggerElement2,
-                        start: "top 50%",
-                        end: "+=80%",
-                        scrub: 0.5,
-                    },
-                });
+                // Get button size
+                const { width, height } = btn.getBoundingClientRect();
 
-                tl.set(split.chars, {
-                    color: "#fff",
-                    stagger: 0.1,
-                }, 0.5);
-            }
-        });
-    </script>
-    <script>
-        // const lenis = new Lenis({
-        //     smooth: true,
-        //     lerp: 0.12,
-        //     wheelMultiplier: 1
-        // });
-        // function raf(time) {
-        //     lenis.raf(time)
-        //     requestAnimationFrame(raf)
-        // }
-        // requestAnimationFrame(raf)
+                // Default position (center)
+                const baseX = 0;
+                const baseY = 0;
 
-        const lenis = new Lenis({
-            duration: 1.2,
-            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-            smoothWheel: true,
-            wheelMultiplier: 1,
-            infinite: false,
-        });
-
-        function raf(time) {
-            lenis.raf(time);
-            requestAnimationFrame(raf);
-        }
-
-        requestAnimationFrame(raf);
-    </script>
-
-    <script>
-        //declare the function createTilesGrid
-        function createTilesGrid(containerId, props = {}) {
-            const {
-                className = "",
-                rows = 400,
-                cols = 400,
-                tileClassName = "",
-                tileSize = "md",
-            } = props;
-
-            const container = document.getElementById(containerId);
-            if (!container) {
-                //         console.error(`Container with ID "${containerId}" not found.`);
-                return;
-            }
-
-            // Set container classes
-            container.className = `grid-container ${className}`;
-            container.innerHTML = "";
-
-            const rowClass = 'tile-md';
-
-            for (let i = 0; i < rows; i++) {
-                const rowDiv = document.createElement('div');
-                rowDiv.className = `${rowClass} tile-row ${tileClassName}`;
-                rowDiv.setAttribute('data-row-index', i);
-
-                for (let j = 0; j < cols; j++) {
-                    const colDiv = document.createElement('div');
-                    colDiv.className = `${rowClass} tile-col        ${tileClassName}`;
-                    colDiv.setAttribute('data-col-index', j);
-                    rowDiv.appendChild(colDiv);
+                // --- Animation functions ---
+                function animateText(e) {
+                    if (!text) return; // stop if text not found
+                    const offsetX = e.offsetX - width / 4;
+                    const offsetY = e.offsetY - height / 4;
+                    anime({
+                        targets: text,
+                        translateX: -0.1 * offsetX,
+                        translateY: -0.1 * offsetY,
+                        duration: 500,
+                    });
                 }
-                container.appendChild(rowDiv);
+
+                function animateIcon(e) {
+                    if (!icon) return; // stop if icon not found
+                    const offsetX = e.offsetX - width / 4;
+                    const offsetY = e.offsetY - height / 4;
+                    anime({
+                        targets: icon,
+                        translateX: -0.1 * offsetX,
+                        translateY: -0.1 * offsetY,
+                        duration: 500,
+                    });
+                }
+
+                function animateBackground(e) {
+                    if (!bg) return; // stop if background not found
+                    const offsetX = e.offsetX - width / 4;
+                    const offsetY = e.offsetY - height / 4;
+                    anime({
+                        targets: bg,
+                        translateX: 0.05 * offsetX,
+                        translateY: 0.05 * offsetY,
+                        duration: 500,
+                    });
+                }
+
+                // --- Reset animations ---
+                function resetAnimations() {
+                    const targets = [text, icon, bg].filter(Boolean); // remove nulls
+                    anime({
+                        targets: targets,
+                        translateX: baseX,
+                        translateY: baseY,
+                        duration: 700,
+                        easing: "easeOutElastic",
+                    });
+                }
+
+                // --- Event Listeners ---
+                btn.addEventListener("pointerenter", (e) => {
+                    animateText(e);
+                    animateBackground(e);
+                    animateIcon(e);
+                });
+
+                btn.addEventListener("pointermove", (e) => {
+                    animateText(e);
+                    animateBackground(e);
+                    animateIcon(e);
+                });
+
+                btn.addEventListener("pointerleave", () => {
+                    resetAnimations();
+                });
+            });
+
+            document.addEventListener("DOMContentLoaded", function () {
+                gsap.registerPlugin(ScrollTrigger);
+
+                const triggerElement2 = document.querySelector(".home-animated-text-section");
+                const textElement2 = document.querySelector(".home-animated-text-content p");
+
+
+                if (triggerElement2 && textElement2) {
+                    const split = new SplitType(textElement2, {
+                        types: "words, chars",
+                    });
+
+                    const tl = gsap.timeline({
+                        scrollTrigger: {
+                            trigger: triggerElement2,
+                            start: "top 50%",
+                            end: "+=80%",
+                            scrub: 0.5,
+                        },
+                    });
+
+                    tl.set(split.chars, {
+                        color: "#fff",
+                        stagger: 0.1,
+                    }, 0.5);
+                }
+            });
+
+
+            const lenis = new Lenis({
+                duration: 1.2,
+                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+                smoothWheel: true,
+                wheelMultiplier: 1,
+                infinite: false,
+            });
+
+            function raf(time) {
+                lenis.raf(time);
+                requestAnimationFrame(raf);
             }
-        }
 
-        //calling function createTilesGrid
-        createTilesGrid('tiles-container', {
-            rows: 400,    // Reduced for faster loading/testing
-            cols: 400,
-            tileSize: "md",
-            // className: "my-custom-container-styles",
-            // tileClassName: "my-custom-tile-styles",
-        });
-    </script>
+            requestAnimationFrame(raf);
+
+            function createTilesGrid(containerId, props = {}) {
+                const {
+                    className = "",
+                    rows = 400,
+                    cols = 400,
+                    tileClassName = "",
+                    tileSize = "md",
+                } = props;
+
+                const container = document.getElementById(containerId);
+                if (!container) {
+                    //         console.error(`Container with ID "${containerId}" not found.`);
+                    return;
+                }
+
+                // Set container classes
+                container.className = `grid-container ${className}`;
+                container.innerHTML = "";
+
+                const rowClass = 'tile-md';
+
+                for (let i = 0; i < rows; i++) {
+                    const rowDiv = document.createElement('div');
+                    rowDiv.className = `${rowClass} tile-row ${tileClassName}`;
+                    rowDiv.setAttribute('data-row-index', i);
+
+                    for (let j = 0; j < cols; j++) {
+                        const colDiv = document.createElement('div');
+                        colDiv.className = `${rowClass} tile-col        ${tileClassName}`;
+                        colDiv.setAttribute('data-col-index', j);
+                        rowDiv.appendChild(colDiv);
+                    }
+                    container.appendChild(rowDiv);
+                }
+            }
 
 
-    <script>
-        AOS.init({
-            duration: 1000, // অ্যানিমেশন কতক্ষণ ধরে হবে (1000ms = 1s)
-            offset: 120,    // স্ক্রিন থেকে কতটুকু উপরে আসলে অ্যানিমেশন শুরু হবে
-            once: true      // ট্রু দিলে শুধু একবার হবে, ফলস দিলে প্রতিবার স্ক্রলে হবে
+            createTilesGrid('tiles-containera', {
+                rows: 400,
+                cols: 400,
+                tileSize: "md",
+                // className: "my-custom-container-styles",
+                // tileClassName: "my-custom-tile-styles",
+            });
+
+
+            AOS.init({
+                duration: 1000,
+                offset: 80,
+                once: true
+            });
         });
     </script>
 
