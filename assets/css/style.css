@@ -1093,6 +1093,7 @@ a {
 .home-project-show-section {
     position: relative;
     padding: 100px 0px;
+    background: #141414;
 }
 
 .home-project-show-section .button-container {
