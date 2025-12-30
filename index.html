@@ -86,7 +86,8 @@
                             </svg>
                         </a>
                     </div>
-                    <h1 class="home-banner-title banner-heading" data-aos="fade-up">We Build Conversion Focused Digital Products <span>for
+                    <h1 class="home-banner-title banner-heading" data-aos="fade-up">We Build Conversion Focused Digital
+                        Products <span>for
                             Growing
                             Businesses</span></h1>
                     <div class="button-container" data-aos="fade-up">
@@ -103,7 +104,8 @@
                     </div>
                 </div>
                 <div class="cliens-text-section">
-                    <p class="text-content pera-text" data-aos="fade-left">Clients from 60+ countries trusted us with 900+ projects</p>
+                    <p class="text-content pera-text" data-aos="fade-left">Clients from 60+ countries trusted us with
+                        900+ projects</p>
                     <div class="client-image" data-aos="zoom-in">
                         <a href="#" class="">
                             <img src="./assets/images/testi-image-01.png" alt=""
@@ -183,8 +185,10 @@
         <div class="container">
             <div class="service-section-inner-container">
                 <div class="service-section-headings">
-                    <h2 class="service-heading section-heading" data-aos="fade-up">Solutions for <br><span>Your Business</span></h2>
-                    <p class="service-desc pera-text-2" data-aos="fade-up">We make sure your digital platforms aren’t just online but
+                    <h2 class="service-heading section-heading" data-aos="fade-up">Solutions for <br><span>Your
+                            Business</span></h2>
+                    <p class="service-desc pera-text-2" data-aos="fade-up">We make sure your digital platforms aren’t
+                        just online but
                         working
                         for you. Simple to use, effective, and ready to grow with your business.</p>
                 </div>
@@ -399,8 +403,10 @@
         <div class="container">
             <div class="project-section-inner-container">
                 <div class="project-section-headings">
-                    <h2 class="service-heading section-heading" data-aos="fade-up">Projects We’ve <br><span>Brought to Life</span></h2>
-                    <a href="/contact/" class="anime-btn btn-home2 btn-secondary-to-white btn--lowercase" data-aos="fade-up">
+                    <h2 class="service-heading section-heading" data-aos="fade-up">Projects We’ve <br><span>Brought to
+                            Life</span></h2>
+                    <a href="/contact/" class="anime-btn btn-home2 btn-secondary-to-white btn--lowercase"
+                        data-aos="fade-up">
                         <span class="btn--text" data-text="View all Projects"
                             style="transform: translateX(0px) translateY(0px);">View all Projects</span>
                         <span class="btn--icon" style="transform: translateX(0px) translateY(0px);"><svg width="18"
@@ -705,7 +711,8 @@
         <div class="testimonial-blur-box"></div>
         <div class="container">
             <div class="testimonials-section-headings">
-                <h2 class="testimonials-heading section-heading" data-aos="fade-up" data-aos-delay="0">Trusted by Businesses<br><span>Worldwide</span></h2>
+                <h2 class="testimonials-heading section-heading" data-aos="fade-up" data-aos-delay="0">Trusted by
+                    Businesses<br><span>Worldwide</span></h2>
                 <div class="marketplace-logos-container" data-aos="fade-up" data-aos-delay="0">
                     <div class="market-place-logos">
                         <div class="marketplace-logo">
@@ -1275,7 +1282,8 @@
         <div class="container">
             <div class="faq-inner-container">
                 <div class="faq-title-container">
-                    <h2 class="service-heading section-heading" data-aos="fade-up" data-aos-delay="0">Things Clients<br><span>Usually Ask</span></h2>
+                    <h2 class="service-heading section-heading" data-aos="fade-up" data-aos-delay="0">Things
+                        Clients<br><span>Usually Ask</span></h2>
                 </div>
                 <div class="faq-content-container">
                     <div class="faq-items accordion-wrapper" x-data="{ activeAccordion: 1 }">
@@ -1508,16 +1516,31 @@
         });
     </script>
     <script>
+        // const lenis = new Lenis({
+        //     smooth: true,
+        //     lerp: 0.12,
+        //     wheelMultiplier: 1
+        // });
+        // function raf(time) {
+        //     lenis.raf(time)
+        //     requestAnimationFrame(raf)
+        // }
+        // requestAnimationFrame(raf)
+
         const lenis = new Lenis({
-            smooth: true,
-            lerp: 0.12,
-            wheelMultiplier: 1
+            duration: 1.2,
+            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+            smoothWheel: true,
+            wheelMultiplier: 1,
+            infinite: false,
         });
+
         function raf(time) {
-            lenis.raf(time)
-            requestAnimationFrame(raf)
+            lenis.raf(time);
+            requestAnimationFrame(raf);
         }
-        requestAnimationFrame(raf)
+
+        requestAnimationFrame(raf);
     </script>
 
     <script>
@@ -1569,13 +1592,13 @@
     </script>
 
 
-<script>
-    AOS.init({
-    duration: 1000, // অ্যানিমেশন কতক্ষণ ধরে হবে (1000ms = 1s)
-    offset: 120,    // স্ক্রিন থেকে কতটুকু উপরে আসলে অ্যানিমেশন শুরু হবে
-    once: true      // ট্রু দিলে শুধু একবার হবে, ফলস দিলে প্রতিবার স্ক্রলে হবে
-  });
-</script>
+    <script>
+        AOS.init({
+            duration: 1000, // অ্যানিমেশন কতক্ষণ ধরে হবে (1000ms = 1s)
+            offset: 120,    // স্ক্রিন থেকে কতটুকু উপরে আসলে অ্যানিমেশন শুরু হবে
+            once: true      // ট্রু দিলে শুধু একবার হবে, ফলস দিলে প্রতিবার স্ক্রলে হবে
+        });
+    </script>
 
 
 </body>
