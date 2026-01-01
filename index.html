@@ -651,6 +651,7 @@
 
     <section class="home-project-show-section">
         <div class="grid-container" id="tiles-container"></div>
+        <div class="grid-bg"></div>
         <div class="showcase-wrapper">
 
             <div class="project-showcase">
@@ -1415,15 +1416,15 @@
         });
 
         const lenis = new Lenis({
-            duration: 1.8,
+            duration: 2,
             easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-            direction: 'vertical',
-            gestureDirection: 'vertical',
+            orientation: 'vertical',
+            gestureOrientation: 'vertical',
             smoothWheel: true,
             smooth: true,
             wheelMultiplier: 0.8,
             infinite: false,
-            lerp: 0.05,
+            // lerp: 0.05,
         });
 
         function raf(time) {
@@ -1433,11 +1434,10 @@
 
         requestAnimationFrame(raf);
 
-        // GSAP ScrollTrigger এর সাথে Lenis কানেক্ট করা
         lenis.on('scroll', ScrollTrigger.update);
 
         gsap.ticker.add((time) => {
-            lenis.raf(time * 1000);
+            lenis.raf(time * 500);
         });
 
         gsap.ticker.lagSmoothing(0);

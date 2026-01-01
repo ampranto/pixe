@@ -21,6 +21,19 @@
   pointer-events: none;
 } */
 
+.grid-bg {
+    height: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 8px 8px;
+    /* mask-image: linear-gradient(to bottom, transparent, white 15%, white 85%, transparent); */
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
 
 html {
     scroll-behavior: smooth;
@@ -36,7 +49,6 @@ body {
     box-sizing: border-box;
     font-family: "Archivo", sans-serif;
     background-color: #000;
-    /* overflow: hidden; */
 }
 
 img {
@@ -798,13 +810,11 @@ a {
 
 :root {
     --duration: 30s;
-    /* কত দ্রুত স্ক্রল হবে */
 }
 
 .logo-slider {
     width: 100%;
     overflow: hidden;
-    /* বাইরের অংশ হাইড রাখবে */
     padding: 40px 0 80px;
     position: relative;
 }
@@ -830,15 +840,13 @@ a {
     background: linear-gradient(to left, #000000, transparent);
 }
 
+
 .logo-track {
     display: flex;
     width: max-content;
-    ;
-    /* মোট লোগো সংখ্যার হিসাব */
     animation: scroll 50s linear infinite;
 }
 
-/* মাউস হোভার করলে স্ক্রল থেমে যাবে */
 .logo-track:hover {
     animation-play-state: paused;
 }
@@ -1093,7 +1101,7 @@ a {
 .home-project-show-section {
     position: relative;
     padding: 100px 0px;
-    background: #141414;
+    /* background: #141414; */
 }
 
 .home-project-show-section .button-container {
@@ -1175,13 +1183,10 @@ a {
     position: relative;
     z-index: 0;
     display: flex;
-    /* Makes the rows align horizontally */
     width: 100%;
     height: 100%;
-    /* Adjust as needed */
     justify-content: center;
     overflow: auto;
-    /* To handle large number of rows/cols */
 }
 
 .dark .grid-container {
@@ -1206,10 +1211,8 @@ a {
     position: relative;
     /*     border-left: 0.2px solid rgba(255,255,255,0.15); */
     flex-shrink: 0;
-    /* Important for flex container children */
 }
 
-/* --- Column/Tile Styling --- */
 .tile-col {
     position: relative;
     border-right: 0.2px solid rgba(255, 255, 255, 0.15);
@@ -1228,15 +1231,3 @@ a {
     left: 0;
     overflow: hidden;
 }
-
-
-
-/* Only necessary with horizontal scrolling
-html[data-scroll-orientation="horizontal"] {
-    body {
-        width: fit-content;
-    }
-    [data-scroll-container] {
-        display: flex;
-    }
-} */
