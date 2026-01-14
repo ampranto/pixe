@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixelean Home Page </title>
+    <?php wp_head(); ?>
+</head>
+
+<body class="red">
+    <section class="home-banner-section">
+        <div class="video-section">
+            <video class="bg-video" autoplay muted loop playsinline>
+                <source src="https://pixelean.com/wp-content/uploads/2025/10/Blob-Complex-displacement_1-1.mp4"
+                    type="video/mp4">
+            </video>
+        </div>
+        <div class="container">
+            <div class="container-inner">
+                <div class="home-banner-content">
+                    <div class="clutch-cta" data-aos="fade-up">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="642" height="243" viewBox="0 0 642 243"
+                                fill="none">
+                                <rect width="641.958" height="243" fill="#141414"></rect>
+                                <path
+                                    d="M137.328 115.67H147.327V178.33H137.328V115.67ZM182.434 158.332C182.434 167.887 174.435 168.775 171.991 168.775C165.992 168.775 164.881 163.22 164.881 159.887V135.668H154.882V159.665C154.882 165.665 156.659 170.553 159.992 173.664C162.881 176.552 167.103 178.108 171.991 178.108C175.324 178.108 179.99 176.997 182.434 174.775V178.108H192.433V135.668H182.434V158.332ZM212.431 120.78H202.432V135.668H194.877V145.667H202.432V178.33H212.431V145.667H219.986V135.668H212.431V120.78ZM251.538 165.665C249.316 167.664 246.427 168.775 243.317 168.775C236.429 168.775 231.318 163.665 231.318 156.554C231.318 149.444 236.206 144.556 243.317 144.556C246.427 144.556 249.316 145.667 251.538 147.444L253.093 148.777L259.759 142.112L257.982 140.556C253.982 137.001 248.649 135.001 243.094 135.001C230.651 135.001 221.541 144.111 221.541 156.554C221.541 168.998 230.874 178.33 243.094 178.33C248.872 178.33 254.204 176.33 257.982 172.775L259.537 171.219L252.649 164.554L251.538 165.665ZM295.533 139.445C292.645 136.557 289.312 135.001 284.646 135.001C281.313 135.001 277.535 136.112 275.091 138.334V115.67H265.092V178.33H275.091V154.777C275.091 145.222 281.979 144.333 284.201 144.333C290.201 144.333 289.978 149.888 289.978 153.221V178.108H299.977V153.444C300.199 147.666 298.866 142.778 295.533 139.445Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M242.872 149.443C246.871 149.443 250.204 152.776 250.204 156.776C250.204 160.775 246.871 164.108 242.872 164.108C238.872 164.108 235.539 160.775 235.539 156.776C235.539 152.776 238.872 149.443 242.872 149.443Z"
+                                    fill="#EE4234"></path>
+                                <path
+                                    d="M123.329 162.554C119.551 166.553 114.441 168.553 108.886 168.553C97.7759 168.553 89.5545 159.887 89.5545 147.666C89.5545 135.668 97.7759 126.78 108.886 126.78C114.219 126.78 119.329 129.002 123.329 132.779L124.884 134.334L131.55 127.668L129.995 126.335C124.44 120.558 116.885 117.447 108.886 117.447C92.4431 117.447 80 130.557 80 147.888C80 165.22 92.4431 178.33 108.886 178.33C117.107 178.33 124.44 175.219 129.995 169.442L131.55 167.886L124.884 160.998L123.329 162.554Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M85.8621 65.707C87.931 65.707 89.6552 66.0525 91.0345 66.3981C92.4138 66.7436 93.4483 67.7801 94.1379 68.8167C94.8276 69.8532 95.1724 71.2353 95.1724 72.6173C95.1724 73.9994 94.8276 75.0359 94.4827 75.727C94.1379 76.7635 93.4483 77.4545 92.7586 77.8001C92.069 78.1456 91.0345 78.8366 90.3448 79.1821L97.2414 90.2386H93.7931L87.931 79.8731H82.7586V90.2386H80V65.707H85.8621ZM85.8621 68.1256H82.4138V77.4545H86.2069C88.2759 77.4545 89.6552 77.109 90.6896 76.0725C91.7241 75.3814 92.069 73.9994 92.069 72.6173C92.069 70.8898 91.7241 69.8532 90.6896 69.1622C89.3103 68.4712 87.931 68.1256 85.8621 68.1256Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M114.137 90.2386H100.344V65.707H114.137V68.1256H103.447V76.0725H113.792V78.4911H103.447V87.4745H114.137V90.2386Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M136.897 65.707L127.931 90.2386H125.173L116.207 65.707H119.31L125.173 81.9462C125.517 82.6373 125.517 83.3283 125.862 83.6738C126.207 84.3648 126.207 84.7104 126.207 85.4014C126.207 86.0924 126.552 86.7834 126.552 87.129C126.552 86.7834 126.897 86.0924 126.897 85.4014C126.897 84.7104 127.242 84.3648 127.242 83.6738C127.586 82.9828 127.586 82.2917 127.931 81.9462L133.793 65.707H136.897Z"
+                                    fill="white"></path>
+                                <path d="M140.344 90.2386V65.707H143.102V90.2386H140.344Z" fill="white"></path>
+                                <path
+                                    d="M163.449 90.2386H149.656V65.707H163.449V68.1256H152.76V76.0725H163.105V78.4911H152.76V87.4745H163.449V90.2386Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M196.896 65.707L190.344 90.2386H187.585L182.758 73.6539C182.758 73.3084 182.413 72.6173 182.413 72.2718C182.413 71.9263 182.068 71.2353 182.068 70.8898C182.068 70.5442 181.723 70.1987 181.723 69.8532C181.723 70.1987 181.723 70.5442 181.378 70.8898C181.378 71.2353 181.034 71.9263 181.034 72.2718C181.034 72.6173 180.689 73.3084 180.689 73.6539L175.861 90.2386H173.103L166.551 65.707H169.654L173.447 81.2552C173.447 81.6007 173.792 82.2917 173.792 82.6373C173.792 82.9828 174.137 83.6738 174.137 84.0193C174.137 84.3648 174.482 85.0559 174.482 85.4014C174.482 85.7469 174.482 86.4379 174.827 86.7834C174.827 86.4379 174.827 85.7469 175.171 85.4014C175.171 85.0559 175.516 84.3648 175.516 84.0193C175.516 83.6738 175.861 82.9828 175.861 82.6373C175.861 82.2917 176.206 81.6007 176.206 81.2552L180.689 66.0525H183.792L188.275 81.6007C188.275 82.2917 188.62 82.6373 188.62 83.3283C188.62 84.0193 188.965 84.3648 188.965 84.7104C188.965 85.0559 189.309 85.7469 189.309 86.0924C189.309 86.4379 189.309 86.7834 189.654 87.4745C189.654 86.7834 189.999 86.4379 189.999 85.7469C189.999 85.0559 190.344 84.3648 190.344 83.6738C190.344 82.9828 190.689 82.2917 190.689 81.6007L194.482 66.0525H196.896V65.707Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M214.481 90.2386H200.688V65.707H214.481V68.1256H203.791V76.0725H214.136V78.4911H203.791V87.4745H214.481V90.2386Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M239.654 77.8001C239.654 80.5642 239.309 82.9828 238.275 84.7104C237.24 86.4379 235.861 87.82 233.792 88.8565C231.723 89.8931 229.654 90.2386 226.895 90.2386H220.344V65.707H227.93C230.344 65.707 232.758 66.0525 234.482 67.0891C236.206 68.1256 237.585 69.5077 238.62 71.2353C238.964 72.9628 239.654 75.0359 239.654 77.8001ZM236.551 77.8001C236.551 75.727 236.206 73.6539 235.516 72.2718C234.826 70.8898 233.792 69.8532 232.413 69.1622C231.033 68.4712 229.309 68.1256 227.24 68.1256H223.102V87.82H226.551C229.999 87.82 232.413 87.129 234.137 85.4014C235.861 83.6738 236.551 81.2552 236.551 77.8001Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M275.519 78.145C275.519 79.8726 275.174 81.9457 274.83 83.3277C274.485 85.0553 273.795 86.0919 272.761 87.4739C271.726 88.5105 270.692 89.547 269.312 90.238C267.933 90.9291 265.864 90.5835 264.14 90.5835C262.071 90.5835 260.692 90.238 259.312 89.547C257.933 88.856 256.554 88.1649 255.864 86.7829C254.83 85.7463 254.14 84.3643 253.795 82.6367C253.45 80.9091 253.105 79.1816 253.105 77.454C253.105 75.0354 253.45 72.6168 254.485 70.8892C255.519 69.1616 256.554 67.434 258.278 66.3975C260.002 65.361 262.071 64.6699 264.485 64.6699C266.899 64.6699 268.968 65.361 270.692 66.3975C272.416 67.434 273.45 68.8161 274.485 70.8892C274.83 73.3078 275.519 75.3809 275.519 78.145ZM255.864 78.145C255.864 80.2181 256.209 81.9457 256.899 83.6732C257.588 85.4008 258.278 86.4374 259.657 87.1284C261.036 87.8194 262.416 88.5105 264.485 88.5105C266.554 88.5105 267.933 88.1649 269.312 87.1284C270.692 86.4374 271.381 85.0553 272.071 83.6732C272.761 82.2912 273.105 80.2181 273.105 78.145C273.105 75.0354 272.416 72.6168 271.036 70.5437C269.657 68.8161 267.588 67.7796 264.83 67.7796C262.761 67.7796 261.381 68.1251 260.002 69.1616C258.623 70.1982 257.933 71.2347 257.243 72.6168C256.209 73.9988 255.864 76.0719 255.864 78.145Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M299.999 90.2384H296.551L283.102 69.5075C283.102 70.1985 283.102 70.5441 283.102 71.2351C283.102 71.9261 283.102 72.6171 283.102 73.3082C283.102 73.9992 283.102 75.0357 283.102 75.7268V89.8929H280.344V65.3613H283.792L297.24 86.0922C297.24 85.7467 297.24 85.0557 297.24 84.3647C297.24 83.6736 297.24 82.9826 297.24 81.946C297.24 81.255 297.24 80.2185 297.24 79.5274V65.3613H299.999V90.2384Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M363.268 65.3155C363.813 63.5615 366.187 63.5615 366.732 65.3155L369.497 74.2136C369.74 74.998 370.439 75.5291 371.228 75.5291H380.176C381.94 75.5291 382.673 77.8892 381.246 78.9732L374.007 84.4725C373.369 84.9574 373.102 85.8167 373.346 86.6011L376.111 95.4992C376.656 97.2532 374.736 98.7118 373.309 97.6278L366.07 92.1284C365.432 91.6436 364.568 91.6436 363.93 92.1284L356.691 97.6278C355.264 98.7118 353.344 97.2532 353.889 95.4992L356.654 86.6011C356.898 85.8167 356.631 84.9574 355.993 84.4726L348.754 78.9732C347.327 77.8892 348.06 75.5291 349.824 75.5291H358.772C359.561 75.5291 360.26 74.998 360.503 74.2136L363.268 65.3155Z"
+                                    fill="#EA463B"></path>
+                                <path
+                                    d="M406.268 65.3155C406.813 63.5615 409.187 63.5615 409.732 65.3155L412.497 74.2136C412.74 74.998 413.439 75.5291 414.228 75.5291H423.176C424.94 75.5291 425.673 77.8892 424.246 78.9732L417.007 84.4725C416.369 84.9574 416.102 85.8167 416.346 86.6011L419.111 95.4992C419.656 97.2532 417.736 98.7118 416.309 97.6278L409.07 92.1284C408.432 91.6436 407.568 91.6436 406.93 92.1284L399.691 97.6278C398.264 98.7118 396.344 97.2532 396.889 95.4992L399.654 86.6011C399.898 85.8167 399.631 84.9574 398.993 84.4726L391.754 78.9732C390.327 77.8892 391.06 75.5291 392.824 75.5291H401.772C402.561 75.5291 403.26 74.998 403.503 74.2136L406.268 65.3155Z"
+                                    fill="#EA463B"></path>
+                                <path
+                                    d="M449.268 65.3155C449.813 63.5615 452.187 63.5615 452.732 65.3155L455.497 74.2136C455.74 74.998 456.439 75.5291 457.228 75.5291H466.176C467.94 75.5291 468.673 77.8892 467.246 78.9732L460.007 84.4725C459.369 84.9574 459.102 85.8167 459.346 86.6011L462.111 95.4992C462.656 97.2532 460.736 98.7118 459.309 97.6278L452.07 92.1284C451.432 91.6436 450.568 91.6436 449.93 92.1284L442.691 97.6278C441.264 98.7118 439.344 97.2532 439.889 95.4992L442.654 86.6011C442.898 85.8167 442.631 84.9574 441.993 84.4726L434.754 78.9732C433.327 77.8892 434.06 75.5291 435.824 75.5291H444.772C445.561 75.5291 446.26 74.998 446.503 74.2136L449.268 65.3155Z"
+                                    fill="#EA463B"></path>
+                                <path
+                                    d="M492.268 65.3155C492.813 63.5615 495.187 63.5615 495.732 65.3155L498.497 74.2136C498.74 74.998 499.439 75.5291 500.228 75.5291H509.176C510.94 75.5291 511.673 77.8892 510.246 78.9732L503.007 84.4725C502.369 84.9574 502.102 85.8167 502.346 86.6011L505.111 95.4992C505.656 97.2532 503.736 98.7118 502.309 97.6278L495.07 92.1284C494.432 91.6436 493.568 91.6436 492.93 92.1284L485.691 97.6278C484.264 98.7118 482.344 97.2532 482.889 95.4992L485.654 86.6011C485.898 85.8167 485.631 84.9574 484.993 84.4726L477.754 78.9732C476.327 77.8892 477.06 75.5291 478.824 75.5291H487.772C488.561 75.5291 489.26 74.998 489.503 74.2136L492.268 65.3155Z"
+                                    fill="#EA463B"></path>
+                                <path
+                                    d="M535.268 65.3155C535.813 63.5615 538.187 63.5615 538.732 65.3155L541.497 74.2136C541.74 74.998 542.439 75.5291 543.228 75.5291H552.176C553.94 75.5291 554.673 77.8892 553.246 78.9732L546.007 84.4725C545.369 84.9574 545.102 85.8167 545.346 86.6011L548.111 95.4992C548.656 97.2532 546.736 98.7118 545.309 97.6278L538.07 92.1284C537.432 91.6436 536.568 91.6436 535.93 92.1284L528.691 97.6278C527.264 98.7118 525.344 97.2532 525.889 95.4992L528.654 86.6011C528.898 85.8167 528.631 84.9574 527.993 84.4726L520.754 78.9732C519.327 77.8892 520.06 75.5291 521.824 75.5291H530.772C531.561 75.5291 532.26 74.998 532.503 74.2136L535.268 65.3155Z"
+                                    fill="#EA463B"></path>
+                                <path
+                                    d="M370.877 137.24H356.837V146.36C357.45 145.507 358.357 144.813 359.557 144.28C360.757 143.72 362.05 143.44 363.437 143.44C365.65 143.44 367.45 143.907 368.837 144.84C370.224 145.747 371.21 146.933 371.797 148.4C372.41 149.84 372.717 151.373 372.717 153C372.717 154.92 372.357 156.64 371.637 158.16C370.917 159.68 369.81 160.88 368.317 161.76C366.85 162.64 365.024 163.08 362.837 163.08C360.037 163.08 357.77 162.36 356.037 160.92C354.304 159.48 353.25 157.56 352.877 155.16H356.437C356.784 156.68 357.517 157.867 358.637 158.72C359.757 159.573 361.17 160 362.877 160C364.984 160 366.57 159.373 367.637 158.12C368.704 156.84 369.237 155.16 369.237 153.08C369.237 151 368.704 149.4 367.637 148.28C366.57 147.133 364.997 146.56 362.917 146.56C361.504 146.56 360.264 146.907 359.197 147.6C358.157 148.267 357.397 149.187 356.917 150.36H353.477V134.04H370.877V137.24ZM379.314 163.24C378.621 163.24 378.034 163 377.554 162.52C377.074 162.04 376.834 161.453 376.834 160.76C376.834 160.067 377.074 159.48 377.554 159C378.034 158.52 378.621 158.28 379.314 158.28C379.981 158.28 380.541 158.52 380.994 159C381.474 159.48 381.714 160.067 381.714 160.76C381.714 161.453 381.474 162.04 380.994 162.52C380.541 163 379.981 163.24 379.314 163.24ZM385.953 148.24C385.953 143.653 386.699 140.08 388.193 137.52C389.686 134.933 392.299 133.64 396.033 133.64C399.739 133.64 402.339 134.933 403.833 137.52C405.326 140.08 406.073 143.653 406.073 148.24C406.073 152.907 405.326 156.533 403.833 159.12C402.339 161.707 399.739 163 396.033 163C392.299 163 389.686 161.707 388.193 159.12C386.699 156.533 385.953 152.907 385.953 148.24ZM402.473 148.24C402.473 145.92 402.313 143.96 401.993 142.36C401.699 140.733 401.073 139.427 400.113 138.44C399.179 137.453 397.819 136.96 396.033 136.96C394.219 136.96 392.833 137.453 391.873 138.44C390.939 139.427 390.313 140.733 389.993 142.36C389.699 143.96 389.553 145.92 389.553 148.24C389.553 150.64 389.699 152.653 389.993 154.28C390.313 155.907 390.939 157.213 391.873 158.2C392.833 159.187 394.219 159.68 396.033 159.68C397.819 159.68 399.179 159.187 400.113 158.2C401.073 157.213 401.699 155.907 401.993 154.28C402.313 152.653 402.473 150.64 402.473 148.24ZM437.014 163L430.374 151.6H425.974V163H422.334V135.12H431.334C433.441 135.12 435.214 135.48 436.654 136.2C438.121 136.92 439.214 137.893 439.934 139.12C440.654 140.347 441.014 141.747 441.014 143.32C441.014 145.24 440.454 146.933 439.334 148.4C438.241 149.867 436.587 150.84 434.374 151.32L441.374 163H437.014ZM425.974 148.68H431.334C433.307 148.68 434.787 148.2 435.774 147.24C436.761 146.253 437.254 144.947 437.254 143.32C437.254 141.667 436.761 140.387 435.774 139.48C434.814 138.573 433.334 138.12 431.334 138.12H425.974V148.68ZM463.15 156.8H450.99L448.75 163H444.91L454.99 135.28H459.19L469.23 163H465.39L463.15 156.8ZM462.11 153.84L457.07 139.76L452.03 153.84H462.11ZM490.783 135.12V138.08H483.183V163H479.543V138.08H471.903V135.12H490.783ZM498.904 135.12V163H495.264V135.12H498.904ZM527.027 163H523.387L508.747 140.8V163H505.107V135.08H508.747L523.387 157.24V135.08H527.027V163ZM554.352 143.2C553.579 141.573 552.459 140.32 550.992 139.44C549.526 138.533 547.819 138.08 545.872 138.08C543.926 138.08 542.166 138.533 540.592 139.44C539.046 140.32 537.819 141.6 536.912 143.28C536.032 144.933 535.592 146.853 535.592 149.04C535.592 151.227 536.032 153.147 536.912 154.8C537.819 156.453 539.046 157.733 540.592 158.64C542.166 159.52 543.926 159.96 545.872 159.96C548.592 159.96 550.832 159.147 552.592 157.52C554.352 155.893 555.379 153.693 555.672 150.92H544.552V147.96H559.552V150.76C559.339 153.053 558.619 155.16 557.392 157.08C556.166 158.973 554.552 160.48 552.552 161.6C550.552 162.693 548.326 163.24 545.872 163.24C543.286 163.24 540.926 162.64 538.792 161.44C536.659 160.213 534.966 158.52 533.712 156.36C532.486 154.2 531.872 151.76 531.872 149.04C531.872 146.32 532.486 143.88 533.712 141.72C534.966 139.533 536.659 137.84 538.792 136.64C540.926 135.413 543.286 134.8 545.872 134.8C548.832 134.8 551.446 135.533 553.712 137C556.006 138.467 557.672 140.533 558.712 143.2H554.352Z"
+                                    fill="white"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <h1 class="home-banner-title banner-heading" data-aos="fade-up">We Build Conversion Focused Digital
+                        Products <span>for
+                            Growing
+                            Businesses</span></h1>
+                    <div class="button-container" data-aos="fade-up">
+                        <a href="/contact/" class="anime-btn btn-home2 btn-secondary-to-white btn--lowercase">
+                            <span class="btn--text" data-text=" Contact us"
+                                style="transform: translateX(0px) translateY(0px);">Contact us</span>
+                            <span class="btn--icon" style="transform: translateX(0px) translateY(0px);"><svg width="18"
+                                    height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.33878 13.664L13.8246 4.1781" stroke="black" stroke-width="2" />
+                                    <path d="M13.8248 13.822V4.1781H4.17535" stroke="black" stroke-width="2" />
+                                </svg></span>
+                            <span class="btn--bg" style="transform: translateX(0px) translateY(0px);"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="cliens-text-section">
+                    <p class="text-content pera-text" data-aos="fade-left">Clients from 60+ countries trusted us with
+                        900+ projects</p>
+                    <div class="client-image" data-aos="zoom-in">
+                        <a href="#" class="">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/images/testi-image-01.png' ?>" alt=""
+                                class="testi-image  h-[40px] w-[40px] rounded-full border border-black">
+                        </a>
+                        <a href="#">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/images/testi-image-02.png' ?>" alt=""
+                                class="testi-image h-[40px] w-[40px] rounded-full border border-black">
+                        </a>
+                        <a href="#">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/images/testi-image-03.png' ?>" alt=""
+                                class="testi-image  h-[40px] w-[40px] rounded-full border border-black">
+
+                        </a>
+                        <a href="#">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/images/testi-image-04.png' ?>" alt=""
+                                class="testi-image  h-[40px] w-[40px] rounded-full border border-black">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-animated-text-section" data-aos="fade-up">
+        <div class="container">
+            <div class="home-animated-text-content">
+                <p>
+                    Growth today starts with a clear digital presence.<br><br>
+                    Pixelean supports businesses with simple, modern UI UX design and clean development. We work on
+                    websites, mobile apps, SaaS platforms, and dashboards, and build sites using WordPress, Webflow, and
+                    Framer. Over 900 clients have worked with us because we stay clear, fast, and reliable.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="client-logo-section">
+        <div class="container-fluid">
+            <div class="logo-slider">
+                <div class="logo-track">
+                    <div class="logo-item"><img src="<?php echo get_template_directory_uri() . '/assets/images/client-logo-01.svg' ?>" alt="Client 1"></div>
+                    <div class="logo-item"><img src="<?php echo get_template_directory_uri() . '/assets/images/client-logo-02.svg' ?>" alt="Client 2"></div>
+                    <div class="logo-item"><img src="<?php echo get_template_directory_uri() . '/assets/images/client-logo-03.svg' ?>" alt="Client 3"></div>
+                    <div class="logo-item"><img src="<?php echo get_template_directory_uri() . '/assets/images/client-logo-04.svg' ?>" alt="Client 4"></div>
+                    <div class="logo-item"><img src="<?php echo get_template_directory_uri() . '/assets/images/client-logo-05.svg' ?>" alt="Client 5"></div>
+                    <div class="logo-item"><img src="<?php echo get_template_directory_uri() . '/assets/images/client-logo-06.svg' ?>" alt="Client 6"></div>
+                    <div class="logo-item"><img src="<?php echo get_template_directory_uri() . '/assets/images/client-logo-07.svg' ?>" alt="Client 7"></div>
+                    <div class="logo-item"><img src="<?php echo get_template_directory_uri() . '/assets/images/client-logo-08.svg' ?>" alt="Client 8"></div>
+                    <div class="logo-item"><img src="<?php echo get_template_directory_uri() . '/assets/images/client-logo-09.svg' ?>" alt="Client 9"></div>
+                    <div class="logo-item"><img src="<?php echo get_template_directory_uri() . '/assets/images/client-logo-01.svg' ?>" alt="Client 1"></div>
+                    <div class="logo-item"><img src="<?php echo get_template_directory_uri() . '/assets/images/client-logo-02.svg' ?>" alt="Client 2"></div>
+                    <div class="logo-item"><img src="<?php echo get_template_directory_uri() . '/assets/images/client-logo-03.svg' ?>" alt="Client 3"></div>
+                    <div class="logo-item"><img src="<?php echo get_template_directory_uri() . '/assets/images/client-logo-04.svg' ?>" alt="Client 4"></div>
+                    <div class="logo-item"><img src="<?php echo get_template_directory_uri() . '/assets/images/client-logo-05.svg' ?>" alt="Client 5"></div>
+                    <div class="logo-item"><img src="<?php echo get_template_directory_uri() . '/assets/images/client-logo-06.svg' ?>" alt="Client 6"></div>
+                    <div class="logo-item"><img src="<?php echo get_template_directory_uri() . '/assets/images/client-logo-07.svg' ?>" alt="Client 7"></div>
+                    <div class="logo-item"><img src="<?php echo get_template_directory_uri() . '/assets/images/client-logo-08.svg' ?>" alt="Client 8"></div>
+                    <div class="logo-item"><img src="<?php echo get_template_directory_uri() . '/assets/images/client-logo-09.svg' ?>" alt="Client 9"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-video-section" data-aos="fade-up">
+        <div class="container">
+            <div class="video-section-vimeo">
+                <iframe
+                    src="https://player.vimeo.com/video/1117450156?autoplay=1&playsinline=1&color&autopause=0&loop=1&muted=0&title=0&portrait=0&byline=0#t="
+                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-service-section">
+        <div class="container">
+            <div class="service-section-inner-container">
+                <div class="service-section-headings">
+                    <h2 class="service-heading section-heading" data-aos="fade-up">Solutions for <br><span>Your
+                            Business</span></h2>
+                    <p class="service-desc pera-text-2" data-aos="fade-up">We make sure your digital platforms aren’t
+                        just online but
+                        working
+                        for you. Simple to use, effective, and ready to grow with your business.</p>
+                </div>
+                <div class="service-items">
+                    <div class="service-item" data-aos="fade-right" data-aos-delay="0">
+                        <div class="service-item-container">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/images/service-ui-design.png' ?>" alt="">
+                            <h2 class="service-item-heading">UI/UX Design</h2>
+                            <!-- <div class="service-contents">
+                                <p class="service-content">Clean, user focused interfaces that make digital products
+                                    feel
+                                    easy, smooth and enjoyable to use.
+                                </p>
+                                <a href="#">Abc</a>
+                            </div> -->
+                        </div>
+                        <div class="service-item-content">
+                            <p class="service-content">Clean, user focused interfaces that make digital products
+                                feel
+                                easy, smooth and enjoyable to use.
+                            </p>
+                            <a href="#" class="main-btn">
+                                <div class="icon-btn">
+                                    <span class="icon-1"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.33878 13.664L13.8246 4.1781" stroke="black" stroke-width="2" />
+                                            <path d="M13.8248 13.822V4.1781H4.17535" stroke="black" stroke-width="2" />
+                                        </svg>
+                                    </span>
+                                    <span class="icon-2"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.33878 13.664L13.8246 4.1781" stroke="black" stroke-width="2" />
+                                            <path d="M13.8248 13.822V4.1781H4.17535" stroke="black" stroke-width="2" />
+                                        </svg></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="service-item" data-aos="fade-right" data-aos-delay="200">
+                        <div class="service-item-container">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/images/service-mobile-app-design.png' ?>" alt="">
+                            <h2 class="service-item-heading">Mobile App Design</h2>
+                            <!-- <div class="service-contents">
+                                <p class="service-content">Clean, user focused interfaces that make digital products
+                                    feel
+                                    easy, smooth and enjoyable to use.
+                                </p>
+                                <a href="#">Abc</a>
+                            </div> -->
+                        </div>
+                        <div class="service-item-content">
+                            <p class="service-content">We provide user friendly mobile app designs for Android and iOS
+                                that people can understand and use easily.
+                            </p>
+                            <a href="#" class="main-btn">
+                                <div class="icon-btn">
+                                    <span class="icon-1"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.33878 13.664L13.8246 4.1781" stroke="black" stroke-width="2" />
+                                            <path d="M13.8248 13.822V4.1781H4.17535" stroke="black" stroke-width="2" />
+                                        </svg>
+                                    </span>
+                                    <span class="icon-2"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.33878 13.664L13.8246 4.1781" stroke="black" stroke-width="2" />
+                                            <path d="M13.8248 13.822V4.1781H4.17535" stroke="black" stroke-width="2" />
+                                        </svg></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="service-item" data-aos="fade-right" data-aos-delay="400">
+                        <div class="service-item-container">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/images/service-saas-design.png' ?>" alt="">
+                            <h2 class="service-item-heading">Saas Design</h2>
+                            <!-- <div class="service-contents">
+                                <p class="service-content">Clean, user focused interfaces that make digital products
+                                    feel
+                                    easy, smooth and enjoyable to use.
+                                </p>
+                                <a href="#">Abc</a>
+                            </div> -->
+                        </div>
+                        <div class="service-item-content">
+                            <p class="service-content">Scalable SaaS interfaces that users can understand quickly and
+                                manage their work with confidence.
+                            </p>
+                            <a href="#" class="main-btn">
+                                <div class="icon-btn">
+                                    <span class="icon-1"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.33878 13.664L13.8246 4.1781" stroke="black" stroke-width="2" />
+                                            <path d="M13.8248 13.822V4.1781H4.17535" stroke="black" stroke-width="2" />
+                                        </svg>
+                                    </span>
+                                    <span class="icon-2"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.33878 13.664L13.8246 4.1781" stroke="black" stroke-width="2" />
+                                            <path d="M13.8248 13.822V4.1781H4.17535" stroke="black" stroke-width="2" />
+                                        </svg></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="service-item" data-aos="fade-right" data-aos-delay="600">
+                        <div class="service-item-container">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/images/service-website-development.png' ?>" alt="">
+                            <h2 class="service-item-heading">Website Development</h2>
+                            <!-- <div class="service-contents">
+                                <p class="service-content">Clean, user focused interfaces that make digital products
+                                    feel
+                                    easy, smooth and enjoyable to use.
+                                </p>
+                                <a href="#">Abc</a>
+                            </div> -->
+                        </div>
+                        <div class="service-item-content">
+                            <p class="service-content">Scalable SaaS interfaces that users can understand quickly and
+                                manage their work with confidence.
+                            </p>
+                            <a href="#" class="main-btn">
+                                <div class="icon-btn">
+                                    <span class="icon-1"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.33878 13.664L13.8246 4.1781" stroke="black" stroke-width="2" />
+                                            <path d="M13.8248 13.822V4.1781H4.17535" stroke="black" stroke-width="2" />
+                                        </svg>
+                                    </span>
+                                    <span class="icon-2"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.33878 13.664L13.8246 4.1781" stroke="black" stroke-width="2" />
+                                            <path d="M13.8248 13.822V4.1781H4.17535" stroke="black" stroke-width="2" />
+                                        </svg></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="service-item" data-aos="fade-right" data-aos-delay="800">
+                        <div class="service-item-container">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/images/service-wordpress-development.png' ?>" alt="">
+                            <h2 class="service-item-heading">Wordpress Development</h2>
+                            <!-- <div class="service-contents">
+                                <p class="service-content">Clean, user focused interfaces that make digital products
+                                    feel
+                                    easy, smooth and enjoyable to use.
+                                </p>
+                                <a href="#">Abc</a>
+                            </div> -->
+                        </div>
+                        <div class="service-item-content">
+                            <p class="service-content">Scalable SaaS interfaces that users can understand quickly and
+                                manage their work with confidence.
+                            </p>
+                            <a href="#" class="main-btn">
+                                <div class="icon-btn">
+                                    <span class="icon-1"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.33878 13.664L13.8246 4.1781" stroke="black" stroke-width="2" />
+                                            <path d="M13.8248 13.822V4.1781H4.17535" stroke="black" stroke-width="2" />
+                                        </svg>
+                                    </span>
+                                    <span class="icon-2"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.33878 13.664L13.8246 4.1781" stroke="black" stroke-width="2" />
+                                            <path d="M13.8248 13.822V4.1781H4.17535" stroke="black" stroke-width="2" />
+                                        </svg></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="service-item" data-aos="fade-right" data-aos-delay="1000">
+                        <div class="service-item-container">
+                            <img src="<?php echo get_template_directory_uri() . '/assets/images/service-weblow-development.png' ?>" alt="">
+                            <h2 class="service-item-heading">Webflow Development</h2>
+                            <!-- <div class="service-contents">
+                                <p class="service-content">Clean, user focused interfaces that make digital products
+                                    feel
+                                    easy, smooth and enjoyable to use.
+                                </p>
+                                <a href="#">Abc</a>
+                            </div> -->
+                        </div>
+                        <div class="service-item-content">
+                            <p class="service-content">Scalable SaaS interfaces that users can understand quickly and
+                                manage their work with confidence.
+                            </p>
+                            <a href="#" class="main-btn">
+                                <div class="icon-btn">
+                                    <span class="icon-1"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.33878 13.664L13.8246 4.1781" stroke="black" stroke-width="2" />
+                                            <path d="M13.8248 13.822V4.1781H4.17535" stroke="black" stroke-width="2" />
+                                        </svg>
+                                    </span>
+                                    <span class="icon-2"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.33878 13.664L13.8246 4.1781" stroke="black" stroke-width="2" />
+                                            <path d="M13.8248 13.822V4.1781H4.17535" stroke="black" stroke-width="2" />
+                                        </svg></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-project-section">
+        <div class="container">
+            <div class="project-section-inner-container">
+                <div class="project-section-headings">
+                    <h2 class="service-heading section-heading" data-aos="fade-up">Projects We’ve <br><span>Brought to
+                            Life</span></h2>
+                    <a href="/contact/" class="anime-btn btn-home2 btn-secondary-to-white btn--lowercase"
+                        data-aos="fade-up">
+                        <span class="btn--text" data-text="View all Projects"
+                            style="transform: translateX(0px) translateY(0px);">View all Projects</span>
+                        <span class="btn--icon" style="transform: translateX(0px) translateY(0px);"><svg width="18"
+                                height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.33878 13.664L13.8246 4.1781" stroke="black" stroke-width="2" />
+                                <path d="M13.8248 13.822V4.1781H4.17535" stroke="black" stroke-width="2" />
+                            </svg></span>
+                        <span class="btn--bg" style="transform: translateX(0px) translateY(0px);"></span>
+                    </a>
+                </div>
+                <div class="project-items-container">
+                    <div class="project-items">
+                        <div class="project-item" data-aos="fade-up" data-aos-delay="0">
+                            <div class="project-item-image">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/westcoast.webp' ?>" alt="">
+                                <div class="project-item-hover-box">
+                                    <a href="#" class="main-btn">
+                                        <div class="icon-btn">
+                                            <span class="icon-1"><svg width="18" height="18" viewBox="0 0 18 18"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M4.33878 13.664L13.8246 4.1781" stroke="black"
+                                                        stroke-width="2" />
+                                                    <path d="M13.8248 13.822V4.1781H4.17535" stroke="black"
+                                                        stroke-width="2" />
+                                                </svg>
+                                            </span>
+                                            <span class="icon-2"><svg width="18" height="18" viewBox="0 0 18 18"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M4.33878 13.664L13.8246 4.1781" stroke="black"
+                                                        stroke-width="2" />
+                                                    <path d="M13.8248 13.822V4.1781H4.17535" stroke="black"
+                                                        stroke-width="2" />
+                                                </svg></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-item-content">
+                                <div class="project-heading">
+                                    West Coast Security Patrol
+                                </div>
+                                <div class="project-tags">
+                                    <ul>
+                                        <li>UI UX Design</li>
+                                        <li>Website Development</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="project-item" data-aos="fade-up" data-aos-delay="0">
+                            <div class="project-item-image">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/Narranj-capital-1.jpg' ?>" alt="">
+                                <div class="project-item-hover-box">
+                                    <a href="#" class="main-btn">
+                                        <div class="icon-btn">
+                                            <span class="icon-1"><svg width="18" height="18" viewBox="0 0 18 18"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M4.33878 13.664L13.8246 4.1781" stroke="black"
+                                                        stroke-width="2" />
+                                                    <path d="M13.8248 13.822V4.1781H4.17535" stroke="black"
+                                                        stroke-width="2" />
+                                                </svg>
+                                            </span>
+                                            <span class="icon-2"><svg width="18" height="18" viewBox="0 0 18 18"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M4.33878 13.664L13.8246 4.1781" stroke="black"
+                                                        stroke-width="2" />
+                                                    <path d="M13.8248 13.822V4.1781H4.17535" stroke="black"
+                                                        stroke-width="2" />
+                                                </svg></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-item-content">
+                                <div class="project-heading">
+                                    Naranj Capital
+                                </div>
+                                <div class="project-tags">
+                                    <ul>
+                                        <li>UI UX Design</li>
+                                        <li>Website Development</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="project-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="project-item-image">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/Burnaby.jpg' ?>" alt="">
+                                <div class="project-item-hover-box">
+                                    <a href="#" class="main-btn">
+                                        <div class="icon-btn">
+                                            <span class="icon-1"><svg width="18" height="18" viewBox="0 0 18 18"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M4.33878 13.664L13.8246 4.1781" stroke="black"
+                                                        stroke-width="2" />
+                                                    <path d="M13.8248 13.822V4.1781H4.17535" stroke="black"
+                                                        stroke-width="2" />
+                                                </svg>
+                                            </span>
+                                            <span class="icon-2"><svg width="18" height="18" viewBox="0 0 18 18"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M4.33878 13.664L13.8246 4.1781" stroke="black"
+                                                        stroke-width="2" />
+                                                    <path d="M13.8248 13.822V4.1781H4.17535" stroke="black"
+                                                        stroke-width="2" />
+                                                </svg></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-item-content">
+                                <div class="project-heading">
+                                    Burnaby Physio Care
+                                </div>
+                                <div class="project-tags">
+                                    <ul>
+                                        <li>Website Development</li>
+                                        <li>UI UX Design</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="project-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="project-item-image">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/Payme.jpg' ?>" alt="">
+                                <div class="project-item-hover-box">
+                                    <a href="#" class="main-btn">
+                                        <div class="icon-btn">
+                                            <span class="icon-1"><svg width="18" height="18" viewBox="0 0 18 18"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M4.33878 13.664L13.8246 4.1781" stroke="black"
+                                                        stroke-width="2" />
+                                                    <path d="M13.8248 13.822V4.1781H4.17535" stroke="black"
+                                                        stroke-width="2" />
+                                                </svg>
+                                            </span>
+                                            <span class="icon-2"><svg width="18" height="18" viewBox="0 0 18 18"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M4.33878 13.664L13.8246 4.1781" stroke="black"
+                                                        stroke-width="2" />
+                                                    <path d="M13.8248 13.822V4.1781H4.17535" stroke="black"
+                                                        stroke-width="2" />
+                                                </svg></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-item-content">
+                                <div class="project-heading">
+                                    Payme
+                                </div>
+                                <div class="project-tags">
+                                    <ul>
+                                        <li>Branding</li>
+                                        <li>UI UX Design</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="project-item" data-aos="fade-up" data-aos-delay="400">
+                            <div class="project-item-image">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/kumpool.jpg' ?>" alt="">
+                                <div class="project-item-hover-box">
+                                    <a href="#" class="main-btn">
+                                        <div class="icon-btn">
+                                            <span class="icon-1"><svg width="18" height="18" viewBox="0 0 18 18"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M4.33878 13.664L13.8246 4.1781" stroke="black"
+                                                        stroke-width="2" />
+                                                    <path d="M13.8248 13.822V4.1781H4.17535" stroke="black"
+                                                        stroke-width="2" />
+                                                </svg>
+                                            </span>
+                                            <span class="icon-2"><svg width="18" height="18" viewBox="0 0 18 18"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M4.33878 13.664L13.8246 4.1781" stroke="black"
+                                                        stroke-width="2" />
+                                                    <path d="M13.8248 13.822V4.1781H4.17535" stroke="black"
+                                                        stroke-width="2" />
+                                                </svg></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-item-content">
+                                <div class="project-heading">
+                                    Kumpool
+                                </div>
+                                <div class="project-tags">
+                                    <ul>
+                                        <li>UI UX Design</li>
+                                        <li>Website Development</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="project-item" data-aos="fade-up" data-aos-delay="400">
+                            <div class="project-item-image">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/Aeropact.jpg' ?>" alt="">
+                                <div class="project-item-hover-box">
+                                    <a href="#" class="main-btn">
+                                        <div class="icon-btn">
+                                            <span class="icon-1"><svg width="18" height="18" viewBox="0 0 18 18"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M4.33878 13.664L13.8246 4.1781" stroke="black"
+                                                        stroke-width="2" />
+                                                    <path d="M13.8248 13.822V4.1781H4.17535" stroke="black"
+                                                        stroke-width="2" />
+                                                </svg>
+                                            </span>
+                                            <span class="icon-2"><svg width="18" height="18" viewBox="0 0 18 18"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M4.33878 13.664L13.8246 4.1781" stroke="black"
+                                                        stroke-width="2" />
+                                                    <path d="M13.8248 13.822V4.1781H4.17535" stroke="black"
+                                                        stroke-width="2" />
+                                                </svg></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-item-content">
+                                <div class="project-heading">
+                                    Aeropact
+                                </div>
+                                <div class="project-tags">
+                                    <ul>
+                                        <li>Website Development</li>
+                                        <li>UI UX Design</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-project-show-section">
+        <div class="grid-container" id="tiles-container"></div>
+        <div class="grid-bg"></div>
+        <div class="showcase-wrapper">
+
+            <div class="project-showcase">
+                <div class="project-track scroll-left">
+                    <div class="project-card"><img src="<?php echo get_template_directory_uri() . '/assets/images/project-show-Finance-dashboard.jpg' ?>" alt="">
+                    </div>
+                    <div class="project-card"><img src="<?php echo get_template_directory_uri() . '/assets/images/project-show-Globaly-Magazine.jpg' ?>" alt=""></div>
+                    <div class="project-card"><img src="<?php echo get_template_directory_uri() . '/assets/images/project-show-homely.jpg' ?>" alt=""></div>
+                    <div class="project-card"><img src="<?php echo get_template_directory_uri() . '/assets/images/project-show-Zelux.jpg' ?>" alt=""></div>
+                    <div class="project-card"><img src="<?php echo get_template_directory_uri() . '/assets/images/project-show-Finance-dashboard.jpg' ?>" alt="">
+                    </div>
+                    <div class="project-card"><img src="<?php echo get_template_directory_uri() . '/assets/images/project-show-Globaly-Magazine.jpg' ?>" alt=""></div>
+                    <div class="project-card"><img src="<?php echo get_template_directory_uri() . '/assets/images/project-show-homely.jpg' ?>" alt=""></div>
+                    <div class="project-card"><img src="<?php echo get_template_directory_uri() . '/assets/images/project-show-Zelux.jpg' ?>" alt=""></div>
+                </div>
+            </div>
+
+            <div class="project-showcase">
+                <div class="project-track scroll-right">
+                    <div class="project-card"><img src="<?php echo get_template_directory_uri() . '/assets/images/project-show-Finance-dashboard.jpg' ?>" alt="">
+                    </div>
+                    <div class="project-card"><img src="<?php echo get_template_directory_uri() . '/assets/images/project-show-Globaly-Magazine.jpg' ?>" alt=""></div>
+                    <div class="project-card"><img src="<?php echo get_template_directory_uri() . '/assets/images/project-show-homely.jpg' ?>" alt=""></div>
+                    <div class="project-card"><img src="<?php echo get_template_directory_uri() . '/assets/images/project-show-Zelux.jpg' ?>" alt=""></div>
+                    <div class="project-card"><img src="<?php echo get_template_directory_uri() . '/assets/images/project-show-Finance-dashboard.jpg' ?>" alt="">
+                    </div>
+                    <div class="project-card"><img src="<?php echo get_template_directory_uri() . '/assets/images/project-show-Globaly-Magazine.jpg' ?>" alt=""></div>
+                    <div class="project-card"><img src="<?php echo get_template_directory_uri() . '/assets/images/project-show-homely.jpg' ?>" alt=""></div>
+                    <div class="project-card"><img src="<?php echo get_template_directory_uri() . '/assets/images/project-show-Zelux.jpg' ?>" alt=""></div>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <a href="/contact/" class="anime-btn btn-home2 btn-secondary-to-white btn--lowercase">
+                    <span class="btn--text" data-text="View all Projects"
+                        style="transform: translateX(0px) translateY(0px);">View all Projects</span>
+                    <span class="btn--icon" style="transform: translateX(0px) translateY(0px);"><svg width="18"
+                            height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.33878 13.664L13.8246 4.1781" stroke="black" stroke-width="2" />
+                            <path d="M13.8248 13.822V4.1781H4.17535" stroke="black" stroke-width="2" />
+                        </svg></span>
+                    <span class="btn--bg" style="transform: translateX(0px) translateY(0px);"></span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="home-testimonial-section">
+        <div class="testimonial-blur-box"></div>
+        <div class="container">
+            <div class="testimonials-section-headings">
+                <h2 class="testimonials-heading section-heading" data-aos="fade-up" data-aos-delay="0">Trusted by
+                    Businesses<br><span>Worldwide</span></h2>
+                <div class="marketplace-logos-container" data-aos="fade-up" data-aos-delay="0">
+                    <div class="market-place-logos">
+                        <div class="marketplace-logo">
+                            <img src="https://pixelean.com/wp-content/uploads/2025/09/fiverr-logo-1.svg" alt=""
+                                class="market-logo">
+                        </div>
+                        <div class="marketplace-logo">
+                            <img src="https://pixelean.com/wp-content/uploads/2025/09/upwork-logo-1.svg" alt=""
+                                class="market-logo">
+                        </div>
+                        <div class="marketplace-logo">
+                            <img src="https://pixelean.com/wp-content/uploads/2025/09/clutch-logo-1.svg" alt=""
+                                class="market-logo">
+                        </div>
+                    </div>
+                    <div class="review-container">
+                        <div class="rating">
+                            <div class="rating-icon">
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <span>5.0</span>
+                            </div>
+                        </div>
+                        <div class="rating-text">
+                            <p class="">60+ Countries. 400+ Verified Client Reviews</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonials-slider">
+            <div class="testimonial-slider-container">
+                <div class="testimonial-slider">
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="market-logo">
+                                <img src="https://pixelean.com/wp-content/uploads/2025/09/fiverr-logo-1.svg" alt="">
+                            </div>
+                            <div class="rating-icons">
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                            </div>
+                            <p class="testimonial-content-text">1 hello Made my life simple by doing everything I didn’t
+                                have
+                                time to research myself. Was great
+                                with delivery time and communication to what I need and want for my website.Made my life
+                                simple by doing everything I didn’t have
+                                time to research myself. Was great
+                                with delivery time and communication to what I need and want for my website.</p>
+                            <div class="client-info">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/testi-image-01.png' ?>" alt="Client">
+                                <div>
+                                    <h4>Rahat Chowdhury</h4>
+                                    <span>CEO, TechNext</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="market-logo">
+                                <img src="https://pixelean.com/wp-content/uploads/2025/09/fiverr-logo-1.svg" alt="">
+                            </div>
+                            <div class="rating-icons">
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                            </div>
+                            <p class="testimonial-content-text">Made my life simple by doing everything I didn’t have
+                                time to research myself. Was great
+                                with delivery time and communication to what I need and want for my website.</p>
+                            <div class="client-info">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/testi-image-01.png' ?>" alt="Client">
+                                <div>
+                                    <h4>Rahat Chowdhury</h4>
+                                    <span>CEO, TechNext</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="market-logo">
+                                <img src="https://pixelean.com/wp-content/uploads/2025/09/fiverr-logo-1.svg" alt="">
+                            </div>
+                            <div class="rating-icons">
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                            </div>
+                            <p class="testimonial-content-text">Made my life simple by doing everything I didn’t have
+                                time to research myself. Was great
+                                with delivery time and communication to what I need and want for my website.</p>
+                            <div class="client-info">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/testi-image-01.png' ?>" alt="Client">
+                                <div>
+                                    <h4>Rahat Chowdhury</h4>
+                                    <span>CEO, TechNext</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="market-logo">
+                                <img src="https://pixelean.com/wp-content/uploads/2025/09/fiverr-logo-1.svg" alt="">
+                            </div>
+                            <div class="rating-icons">
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                            </div>
+                            <p class="testimonial-content-text">Made my life simple by doing everything I didn’t have
+                                time to research myself. Was great
+                                with delivery time and communication to what I need and want for my website.</p>
+                            <div class="client-info">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/testi-image-01.png' ?>" alt="Client">
+                                <div>
+                                    <h4>Rahat Chowdhury</h4>
+                                    <span>CEO, TechNext</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="market-logo">
+                                <img src="https://pixelean.com/wp-content/uploads/2025/09/fiverr-logo-1.svg" alt="">
+                            </div>
+                            <div class="rating-icons">
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                            </div>
+                            <p class="testimonial-content-text">Made my life simple by doing everything I didn’t have
+                                time to research myself. Was great
+                                with delivery time and communication to what I need and want for my website.</p>
+                            <div class="client-info">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/testi-image-01.png' ?>" alt="Client">
+                                <div>
+                                    <h4>Rahat Chowdhury</h4>
+                                    <span>CEO, TechNext</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="market-logo">
+                                <img src="https://pixelean.com/wp-content/uploads/2025/09/fiverr-logo-1.svg" alt="">
+                            </div>
+                            <div class="rating-icons">
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                            </div>
+                            <p class="testimonial-content-text">Made my life simple by doing everything I didn’t have
+                                time to research myself. Was great
+                                with delivery time and communication to what I need and want for my website.</p>
+                            <div class="client-info">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/testi-image-01.png' ?>" alt="Client">
+                                <div>
+                                    <h4>Rahat Chowdhury</h4>
+                                    <span>CEO, TechNext</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="market-logo">
+                                <img src="https://pixelean.com/wp-content/uploads/2025/09/fiverr-logo-1.svg" alt="">
+                            </div>
+                            <div class="rating-icons">
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                            </div>
+                            <p class="testimonial-content-text">Made my life simple by doing everything I didn’t have
+                                time to research myself. Was great
+                                with delivery time and communication to what I need and want for my website.</p>
+                            <div class="client-info">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/testi-image-01.png' ?>" alt="Client">
+                                <div>
+                                    <h4>Rahat Chowdhury</h4>
+                                    <span>CEO, TechNext</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="market-logo">
+                                <img src="https://pixelean.com/wp-content/uploads/2025/09/fiverr-logo-1.svg" alt="">
+                            </div>
+                            <div class="rating-icons">
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                                <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px"
+                                    viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                    <path fill="currentColor" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265
+	C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642
+	c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854
+	c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72
+	c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z" />
+                                </svg>
+                            </div>
+                            <p class="testimonial-content-text">Made my life simple by doing everything I didn’t have
+                                time to research myself. Was great
+                                with delivery time and communication to what I need and want for my website.</p>
+                            <div class="client-info">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/testi-image-01.png' ?>" alt="Client">
+                                <div>
+                                    <h4>Rahat Chowdhury</h4>
+                                    <span>CEO, TechNext</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-faq-section">
+        <div class="container">
+            <div class="faq-inner-container">
+                <div class="faq-title-container">
+                    <h2 class="service-heading section-heading" data-aos="fade-up" data-aos-delay="0">Things
+                        Clients<br><span>Usually Ask</span></h2>
+                </div>
+                <div class="faq-content-container">
+                    <div class="faq-items accordion-wrapper" x-data="{ activeAccordion: 1 }">
+                        <div class="faq-item" @click="activeAccordion = (activeAccordion === 1 ? null : 1)"
+                            :aria-expanded="activeAccordion === 1">
+                            <div class="faq-item-header accordion-header">
+                                <h4>What services does Pixelean provide?</h4>
+                                <span class="icon" :class="{ 'rotate': activeAccordion === 1 }">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                        fill="none">
+                                        <path d="M4.82031 15.1824L15.3602 4.64258" stroke="white" stroke-width="2">
+                                        </path>
+                                        <path d="M15.3622 15.358V4.64258H4.64062" stroke="white" stroke-width="2">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div x-show="activeAccordion === 1" x-collapse.duration.500ms class="accordion-content">
+                                <p>
+                                    Pixelean offers professional UI/UX design solutions for websites, mobile apps and
+                                    SaaS products. Our expertise extends to website development services using WordPress
+                                    and webflow. Additionally, we specialize in creating highly effective landing pages
+                                    that significantly boost sales for businesses.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-item" @click="activeAccordion = (activeAccordion === 2 ? null : 2)"
+                            :aria-expanded="activeAccordion === 2">
+                            <div class="faq-item-header accordion-header">
+                                <h4>What services does Pixelean provide?</h4>
+                                <span class="icon" :class="{ 'rotate': activeAccordion === 2 }">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                        fill="none">
+                                        <path d="M4.82031 15.1824L15.3602 4.64258" stroke="white" stroke-width="2">
+                                        </path>
+                                        <path d="M15.3622 15.358V4.64258H4.64062" stroke="white" stroke-width="2">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div x-show="activeAccordion === 2" x-collapse.duration.500ms class="accordion-content">
+                                <p>
+                                    Pixelean offers professional UI/UX design solutions for websites, mobile apps and
+                                    SaaS products. Our expertise extends to website development services using WordPress
+                                    and webflow. Additionally, we specialize in creating highly effective landing pages
+                                    that significantly boost sales for businesses.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-item" @click="activeAccordion = (activeAccordion === 3 ? null : 3)"
+                            :aria-expanded="activeAccordion === 3">
+                            <div class="faq-item-header accordion-header">
+                                <h4>What services does Pixelean provide?</h4>
+                                <span class="icon" :class="{ 'rotate': activeAccordion === 3 }">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                        fill="none">
+                                        <path d="M4.82031 15.1824L15.3602 4.64258" stroke="white" stroke-width="2">
+                                        </path>
+                                        <path d="M15.3622 15.358V4.64258H4.64062" stroke="white" stroke-width="2">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div x-show="activeAccordion === 3" x-collapse.duration.500ms class="accordion-content">
+                                <p>
+                                    Pixelean offers professional UI/UX design solutions for websites, mobile apps and
+                                    SaaS products. Our expertise extends to website development services using WordPress
+                                    and webflow. Additionally, we specialize in creating highly effective landing pages
+                                    that significantly boost sales for businesses.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-item" @click="activeAccordion = (activeAccordion === 4 ? null : 4)"
+                            :aria-expanded="activeAccordion === 4">
+                            <div class="faq-item-header accordion-header">
+                                <h4>What services does Pixelean provide?</h4>
+                                <span class="icon" :class="{ 'rotate': activeAccordion === 4 }">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                        fill="none">
+                                        <path d="M4.82031 15.1824L15.3602 4.64258" stroke="white" stroke-width="2">
+                                        </path>
+                                        <path d="M15.3622 15.358V4.64258H4.64062" stroke="white" stroke-width="2">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div x-show="activeAccordion === 4" x-collapse.duration.500ms class="accordion-content">
+                                <p>
+                                    Pixelean offers professional UI/UX design solutions for websites, mobile apps and
+                                    SaaS products. Our expertise extends to website development services using WordPress
+                                    and webflow. Additionally, we specialize in creating highly effective landing pages
+                                    that significantly boost sales for businesses.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<?php wp_footer()?>
+
+</body>
+
+</html>
