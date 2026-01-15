@@ -82,15 +82,12 @@
                             </svg>
                         </a>
                     </div>
-                    <h1 class="home-banner-title banner-heading" data-aos="fade-up">We Build Conversion Focused Digital
-                        Products <span>for
-                            Growing
-                            Businesses</span></h1>
+                    <h1 class="home-banner-title banner-heading" data-aos="fade-up"><?php echo get_theme_mod('Home_Banner_Text'); ?><span><?php echo get_theme_mod('Home_Banner_subheading_Text'); ?></span></h1>
                     <div class="button-container" data-aos="fade-up">
                         <a href="/contact/" class="anime-btn btn-home2 btn-secondary-to-white btn--lowercase">
                             <span class="btn--text" data-text=" Contact us"
                                 style="transform: translateX(0px) translateY(0px);">Contact us</span>
-                            <span class="btn--icon" style="transform: translateX(0px) translateY(0px);"><svg width="18"
+                             <span class="btn--icon" style="transform: translateX(0px) translateY(0px);"><svg width="18"
                                     height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M4.33878 13.664L13.8246 4.1781" stroke="black" stroke-width="2" />
                                     <path d="M13.8248 13.822V4.1781H4.17535" stroke="black" stroke-width="2" />

@@ -1,5 +1,7 @@
 <?php
 
+use function PHPSTORM_META\type;
+
 if (! defined('ABSPATH')) {
     exit; // Exit if accessed directly.
 }
@@ -91,3 +93,49 @@ function pranto_test_enqueue_scripts_styles()
 }
 
 add_action("wp_enqueue_scripts", "pranto_test_enqueue_scripts_styles");
+
+
+function pranto_test_customizer_registration($wp_customize)
+{
+    // $wp_customize->add_panel();
+    // $wp_customize->get_panel();
+    // $wp_customize->remove_panel();
+
+    $wp_customize->add_section('Home_Banner_Section', array(
+        'title' => __('Home Banner Section', 'prantotest'),
+        'description' => __('Update Home Banner From Here'),
+        'panel' => '',
+        'priority' => 160,
+        'capability' => 'edit_theme_options',
+        'theme_supports' => '',
+    ));
+
+    $wp_customize->add_setting('Home_Banner_Text', array(
+        'default' => 'We Build Conversion Focused Digital Products'
+    ));
+
+
+    $wp_customize->add_control(
+        'Home_Banner_Text',
+        array(
+            'label' => __('Update Home Banner From Here', 'prantotest'),
+            'section' => 'Home_Banner_Section',
+            'type' => 'textarea',
+        )
+    );
+    $wp_customize->add_setting('Home_Banner_subheading_Text', array(
+        'default' => 'for Growing Businesses'
+    ));
+
+
+    $wp_customize->add_control(
+        'Home_Banner_subheading_Text',
+        array(
+            'label' => __('Update Home Banner From Here', 'prantotest'),
+            'section' => 'Home_Banner_Section',
+            'type' => 'textarea',
+        )
+    );
+}
+
+add_action("customize_register", "pranto_test_customizer_registration");
